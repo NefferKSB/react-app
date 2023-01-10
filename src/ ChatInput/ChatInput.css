@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+ .custom-text-field {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+  #fullWidthTwo {
+    padding: 60px;
+  }

@@ -1,3 +1,10 @@
+\*
+
+1. task - move text ChatInput component to the center of the page
+2. choose a color for component
+3. lengthen input field
+   \*/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
