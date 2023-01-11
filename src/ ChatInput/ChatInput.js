@@ -4,11 +4,11 @@ import styles from './ChatInput.module.css';
 
 function ChatInputOutput() {
   return (
-  /**/ 
+   /*added title and message*/
   <div> 
    {/*<TextField sx={{backgroundColor: "coral"}} label="fullWidth" variant="filled"/>*/}
    {/*<TextField sx={{backgroundColor: "aquamarine", height: "142px",}}  fullWidth label="fullWidth" variant="filled"/>*/}
- 
+
    <div className={styles.title}> 
    <h1>Chat</h1>
    </div>
