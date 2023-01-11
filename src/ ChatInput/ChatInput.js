@@ -1,20 +1,31 @@
- import * as React from 'react';
- 
- import TextField from '@mui/material/TextField';
+import * as React from 'react'; 
+import TextField from '@mui/material/TextField';
+import styles from './ChatInput.module.css';
 
-import './ChatInput.css';
-import { red } from '@mui/material/colors';
-
-function App() {
+function ChatInputOutput() {
   return (
-  <div class="custom-text-field" id="filled-basic"> 
-     
-   <TextField sx={{backgroundColor: "coral"}} fullWidth label="fullWidth"  id="fullWidth" variant="filled" />
-   <TextField sx={{backgroundColor: "aquamarine", height: "142px",}}  fullWidth label="fullWidth" id="fullWidthTwo" variant="filled"/>
-    
+
+  <div> 
+   {/*<TextField sx={{backgroundColor: "coral"}} label="fullWidth" variant="filled"/>*/}
+   {/*<TextField sx={{backgroundColor: "aquamarine", height: "142px",}}  fullWidth label="fullWidth" variant="filled"/>*/} 
+    <div className={styles.inputContainer}>
+      <TextField 
+        className={styles.inputStyling} 
+        label="User Input Text Goes Here" 
+        variant="filled"
+      />
+    </div>
+    <div className={styles.outputContainer}>
+      <TextField 
+        className={styles.outputStyling} 
+        label="ChatGPT Response Text Goes Here" 
+        variant="filled" 
+        multiline
+        rows={4}
+      />
+    </div>
   </div>
   
   );
 }
-
-export default App;
+export default ChatInputOutput;

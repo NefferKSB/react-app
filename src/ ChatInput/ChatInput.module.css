@@ -1,0 +1,24 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputStyling {
+  margin-bottom: 45px;
+  background: antiquewhite;
+  width: 45%;
+}
+
+.outputStyling {
+  background: antiquewhite;
+  width: 60%;
+}
