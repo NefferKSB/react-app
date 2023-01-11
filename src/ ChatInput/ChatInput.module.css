@@ -1,4 +1,19 @@
+.title {
+  position: absolute;
+  top: -5vh;
+  left: 43vw;
+  font: normal bold 3rem/1.2 "poppins", "helvetica", sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: rgb(237, 219, 194);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 3px 0 #000;
+  
+}
+
+
+
 .inputContainer {
+  padding: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,6 +21,7 @@
 }
 
 .outputContainer {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
