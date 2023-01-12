@@ -6,16 +6,11 @@ function ChatInputOutput() {
   return (
    /*added title and message*/
   <div> 
-   {/*<TextField sx={{backgroundColor: "coral"}} label="fullWidth" variant="filled"/>*/}
-   {/*<TextField sx={{backgroundColor: "aquamarine", height: "142px",}}  fullWidth label="fullWidth" variant="filled"/>*/}
-
-   <div className={styles.title}> 
-   <h1>Chat</h1>
-   </div>
-   <h2>Hello, how may I help you?</h2>
-   <div className={styles.inputContainer}>
-
- 
+    <div className={styles.title}> 
+      <h1>ChatGPT Plugin</h1>
+    </div>
+    <h2>Hello, how may I help you?</h2>
+    <div className={styles.inputContainer}>
       <TextField 
         className={styles.inputStyling} 
         label="User Input Text Goes Here" 
