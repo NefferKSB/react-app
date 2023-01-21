@@ -6,10 +6,11 @@ function ChatInputOutput() {
   return (
    /*added title and message*/
   <div> 
+
     <div className={styles.title}> 
       <h1>ChatGPT Plugin</h1>
     </div>
-    <h2>Hello, how may I help you?</h2>
+    
     <div className={styles.inputContainer}>
       <TextField 
         className={styles.inputStyling} 
